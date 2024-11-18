@@ -1,0 +1,69 @@
+body{
+    background-color:   hsl(30, 54%, 90%);
+    padding: 10% 300px 10% 300px;
+    font-size: 16px;
+    font-family: Outfit;
+    font-weight: 400;
+}
+h1{
+    color:  hsl(24, 5%, 18%);
+    font-family: Young Serif ;
+    font-weight: 700;
+}
+p,li{
+    padding: 4px;
+}
+table{
+    width: 100%;
+   border-collapse: collapse;
+}
+table td{
+    border-bottom: 1px solid #ddd;
+}
+.btc{
+    color:  hsl(14, 45%, 36%);
+}
+.omelette{
+    width: 100%;
+    border-radius: 1rem;
+}
+#recipe{
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    padding: 5%;
+    color: hsl(30, 10%, 34%);
+   
+}
+#pTime{
+    background-color:  hsl(330, 100%, 98%);
+    padding: 2%;
+    border-radius: 1rem;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+
+}
+.purple1{
+    list-style: none;
+}
+.purple1 li::before{
+    content: ".";
+    color:  hsl(332, 51%, 32%);
+    font-weight: bolder;
+    font-size: 30px;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -2rem;
+}
+
+@media (max-width:575px) {
+    body{
+        margin: 0px;
+        padding: 0;
+    }
+
+    #recipe{
+        border-radius: 0;
+
+    }
+}
